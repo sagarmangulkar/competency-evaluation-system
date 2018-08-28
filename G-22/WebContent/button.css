@@ -1,0 +1,38 @@
+.CSSButton {
+border: 1px solid #02B0E6;
+background: -webkit-gradient( linear, left top, left bottom, color-stop(0.19, #0187B0), color-stop(0.9, #016280) );
+background: -moz-linear-gradient( center top, #0187B0 19%, #016280 90% );
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0187B0', endColorstr='#016280');
+background-color: #0187B0;
+-moz-box-shadow: inset 0px 1px 2px 0px #FFFFFF;
+-webkit-box-shadow: inset 0px 1px  2px 0px #FFFFFF;
+box-shadow: inset 0px 1px  2px 0px #FFFFFF;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+text-shadow: 1px 3px 12px #000000;
+font-weight: bold;
+margin: 13px 19px;
+padding: 6px 6px;
+color: #FFFFFF;
+letter-spacing: 2px;
+font-family: 'Arial', sans-serif;
+font-size: 16px;
+width: 150px;
+text-transform: capitalize;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+display: inline-block;
+}
+.CSSButton:hover {
+background: -webkit-gradient( linear, left top, left bottom, color-stop(0.19, #016280), color-stop(0.9, #0187B0) );
+background: -moz-linear-gradient( center top, #016280 19%, #0187B0 90% );
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#016280', endColorstr='#0187B0');
+background-color: #016280;
+}
+.CSSButton:active {
+position: relative;
+top: 3px;
+left: 0px;
+}

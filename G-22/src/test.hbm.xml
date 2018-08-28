@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="g22.project.Test" table="test">
+	<id name="testId" type="java.lang.Integer" column="testid"></id>
+	<property name="testName" type="java.lang.String" column="testname"/>
+	<property name="noOfQuestion" type="java.lang.Integer" column="noofquestions"/>
+	<property name="date" type="java.lang.String" column="testdate"/>
+	<property name="duration" type="java.lang.Integer" column="duration"/>
+	</class>
+</hibernate-mapping>

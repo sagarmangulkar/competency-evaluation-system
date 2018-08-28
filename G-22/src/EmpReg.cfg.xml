@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd" >
+<hibernate-configuration>
+  <session-factory>
+  	<property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+  	<property name="connection.url">jdbc:oracle:thin:@172.25.12.1:1521:oracle</property>
+  	<property name="connection.username">user68</property>
+  	<property name="connection.password">user68</property>
+  	<property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+  	<mapping resource="EmpReg.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

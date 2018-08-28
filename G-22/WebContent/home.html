@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Competency evaluation system</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript">
+function register() 
+{
+	window.navigate("Registration.jsp");	
+}
+</script>
+</head>
+<body>
+<div id="wrapper">
+
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="#">Home</a></li>
+				<li><a href="#">AboutUs</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">ContactUs</a></li>
+			</ul>
+		</div>
+		<!-- end #menu -->
+		<div id="search">
+			<form method="get" action="">
+				<fieldset>
+				<input type="text" name="s" id="search-text" size="15" />
+				<input type="submit" id="search-submit" value="Search" />
+				</fieldset>
+			</form>
+		</div>
+		<!-- end #search -->
+	</div>
+	<!-- end #header -->
+	
+	<div id="logo">
+		<h1><a href="#">Competency Evaluation System </a></h1>
+		
+	</div>
+	<hr />
+	<!-- end #logo -->
+<!-- end #header-wrapper -->
+
+<div id="page">
+	<div id="content">
+		<div class="post">
+			<h2 class="title">Welcome to Our Web Site</h2>
+			<p class="date">07.24.13</p>
+			<div class="entry">
+				<p><h2>Competency Evaluation system</h2> is application for evaluation of employees by conduction tests on verious sub_technologies which will facilitate monitoring of progress of the employee and effectiveness of the training attended and to allocate employees on various project</p>
+				
+				<p class="links"><a href="#" class="comments"></a> << Read More >> </p>
+			</div>
+		</div>
+		
+		
+		<div class="post">
+			<h2 class="title">Login</h2>
+			<p class="date">07.24.13</p>
+			<div class="entry">
+				
+				<form action="Authentication" method="post">
+<table align="center" border="2">
+
+
+<tr>
+<td>Select Roll:</td>
+<td><select name="selectRoll">
+<option value="admin">Admin</option>
+<option value="expert">Expert</option>
+<option selected value="employee">Employee</option>
+</select>
+</td>
+</tr>
+
+<tr>
+
+<td>User Name:</td>
+<td><input type="text" value="" name="userName"/></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="text" value="" name="password"/></td>
+</tr>
+
+<tr>
+<td>&nbsp;&nbsp;&nbsp;
+<input type="submit" value="Login"/></td>
+<td>&nbsp;&nbsp;&nbsp;
+<input type="button" value="Register" onclick="register()"/>
+</td>
+</tr>
+
+</table>
+</form>
+			
+			</div>
+		</div>
+		<!-- end #login -->	
+		
+		
+		<div class="post">
+			<h2 class="title">About Company</h2>
+			
+			<div class="entry">
+				<p>under process</p>
+				<p class="links"><a href="#" class="read more"></a> << Read More >> </p>
+			</div>
+		</div>
+		
+		
+	</div>
+	<!-- end #content -->
+	<div id="sidebar">
+		<ul>
+			<li>
+				<h2>Eligibility</h2>
+				<p>The candidate must be Employee of company</p>
+				<p>Candidate must have valid Employee id</p>
+				<p>Candidate has to appear for more than one test to track his/her progress</p>
+			</li>
+			<li id="calendar">
+				<h2>Calendar</h2>
+				<div id="calendar_wrap">
+					<table summary="Calendar">
+						<caption>
+						July 2013
+						</caption>
+						<thead>
+							<tr>
+								<th abbr="Monday" scope="col" title="Monday">M</th>
+								<th abbr="Tuesday" scope="col" title="Tuesday">T</th>
+								<th abbr="Wednesday" scope="col" title="Wednesday">W</th>
+								<th abbr="Thursday" scope="col" title="Thursday">T</th>
+								<th abbr="Friday" scope="col" title="Friday">F</th>
+								<th abbr="Saturday" scope="col" title="Saturday">S</th>
+								<th abbr="Sunday" scope="col" title="Sunday">S</th>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<td abbr="july" colspan="3" id="prev"><a href="#" title="">&laquo; july</a></td>
+								<td class="pad">&nbsp;</td>
+								<td abbr="augest" colspan="3" id="next"><a href="#" title="">Aug &raquo;</a></td>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr>
+								<td colspan="5" class="pad">&nbsp;</td>
+								<td>1</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>4</td>
+								<td>5</td>
+								<td>6</td>
+								<td>7</td>
+								<td>8</td>
+								<td>9</td>
+							</tr>
+							<tr>
+								<td>10</td>
+								<td >11</td>
+								<td>12</td>
+								<td>13</td>
+								<td>14</td>
+								<td>15</td>
+								<td>16</td>
+							</tr>
+							<tr>
+								<td>17</td>
+								<td>18</td>
+								<td>19</td>
+								<td>20</td>
+								<td>21</td>
+								<td>22</td>
+								<td>23</td>
+							</tr>
+							<tr>
+								<td id="today">24</td>
+								<td>25</td>
+								<td>26</td>
+								<td>27</td>
+								<td>28</td>
+								<td>29</td>
+								<td>30</td>
+							</tr>
+							<tr>
+								<td>31</td>
+								<td class="pad" colspan="6">&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</li>
+			
+		</ul>
+	</div>
+	<!-- end #sidebar -->
+	<div style="clear: both;">&nbsp;</div>
+</div>
+<!-- end #page -->
+
+<div id="footer">
+	<p>Copyright (c) 2013 Group-22 All rights reserved. Design by <a href="http://www.freecsstemplates.org/">All team members</a>.</p>
+</div>
+<!-- end #footer -->
+</div>
+</body>
+</html>

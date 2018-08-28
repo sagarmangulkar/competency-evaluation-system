@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="g22.project.Employee" table="registration">
+		<id name="employeeId" type="java.lang.Integer" column="employeeid"></id>
+		<property name="firstName" type="java.lang.String" column="firstname"></property>
+		<property name="lastName" type="java.lang.String" column="lastname"></property>
+		<property name="password" type="java.lang.String" column="password"></property>
+		<property name="cPassword" type="java.lang.String" column="cpassword"></property>
+		<property name="technology" type="java.lang.String" column="technology"></property>
+		<property name="contactNo" type="java.lang.Integer" column="contactno"></property>
+		<property name="emailId" type="java.lang.String" column="emailid"></property>
+		<property name="sQuestion" type="java.lang.String" column="squestion"></property>
+		<property name="sAnswer" type="java.lang.String" column="sanswer"></property>
+		<property name="selectRoll" type="java.lang.String" column="selectroll"></property>
+	</class>
+</hibernate-mapping>
